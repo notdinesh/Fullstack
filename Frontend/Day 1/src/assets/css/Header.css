@@ -1,0 +1,57 @@
+/* Header Styles */
+header {
+    background-color: #000000;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures the header stays on top of other content */
+  }
+  
+  nav {
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  #list {
+    margin-left: 32cm;
+  }
+
+  nav ul li a {
+    color: #ff0000; /* Red color */
+    text-decoration: none;
+    font-weight: bold;
+    position: relative; /* Required for pseudo-element */
+    transition: color 0.3s; /* Smooth color transition */
+  }
+  
+  nav ul li a:hover {
+    color: #670707; /* Black color */
+  }
+  
+  
+  
+  @keyframes glitter {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
