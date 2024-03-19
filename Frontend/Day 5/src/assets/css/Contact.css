@@ -1,0 +1,63 @@
+/* Styling for the Contact page */
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-container form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .contact-container label {
+    font-size: 18px;
+  }
+  
+  .contact-container input[type="text"],
+  .contact-container input[type="email"],
+  .contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-container textarea {
+    height: 150px;
+  }
+  
+  .contact-container button[type="submit"],
+  .contact-container button[type="button"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-container button[type="submit"]:hover,
+  .contact-container button[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for the email button */
+  .contact-container .email-button {
+    margin-top: 20px;
+  }
+  

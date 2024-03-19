@@ -1,0 +1,39 @@
+/* AdminSidebar.css */
+
+.admin-sidebar {
+  height: 100vh; /* Set the sidebar height to cover full viewport height */
+  width: 250px;
+  background-color: #000000;
+  padding-top: 5cm; /* Set the padding from the top */
+}
+
+.profile-picture {
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-picture img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.admin-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-sidebar li {
+  padding: 10px;
+}
+
+.admin-sidebar li a {
+  text-decoration: none;
+  color: #ff0000;
+  display: block;
+}
+
+.admin-sidebar li a:hover {
+  color: #750e0e;
+}

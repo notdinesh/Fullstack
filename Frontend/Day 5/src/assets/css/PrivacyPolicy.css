@@ -1,0 +1,30 @@
+.privacy-policy {
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+  }
+  
+  .privacy-policy h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .privacy-policy h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .privacy-policy p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .privacy-policy a {
+    color: #007ece; /* Change link color as needed */
+  }
+  
+  .privacy-policy a:hover {
+    text-decoration: underline;
+  }
+  

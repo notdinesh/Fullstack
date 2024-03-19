@@ -1,0 +1,23 @@
+.faqs {
+    margin: 20px;
+  }
+  
+  .faqs h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .faqs .faq-item {
+    margin-bottom: 30px;
+  }
+  
+  .faqs .faq-item h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .faqs .faq-item p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  

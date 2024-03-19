@@ -1,0 +1,49 @@
+/* Cart.css */
+
+/* Referencing styles from ItemCard.css */
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .box-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .box-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .box-name {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .boxprice {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .add-to-cart-btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #45a049;
+  }
+  
